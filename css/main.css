@@ -1,0 +1,32 @@
+.topbar-option {
+    cursor: pointer;
+}
+.topbar-option:hover {
+    text-decoration: underline;
+}
+.dont-display {
+    display: none;
+}
+.do-display {
+    display: block;
+}
+.selected {
+    text-decoration: underline;
+}
+
+/* Likes section CSS */
+.thumb-down:hover .bi-hand-thumbs-down,
+.thumb-down .bi-hand-thumbs-down-fill {
+    display: none;
+}
+.thumb-down:hover .bi-hand-thumbs-down-fill {
+    display: inline;
+}
+
+.thumb-up:hover .bi-hand-thumbs-up,
+.thumb-up .bi-hand-thumbs-up-fill {
+    display: none;
+}
+.thumb-up:hover .bi-hand-thumbs-up-fill {
+    display: inline;
+}
